@@ -1,0 +1,36 @@
+body {
+    margin:0;
+    padding-top:59px;
+  
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+                0 2px 8px 0 rgba(0,0,0,.05);    
+}
+
+.navbar__bg{
+    background-color: rgb(221, 134, 63);
+}
+.btn__inscrevase {
+    color:rgb(241, 231, 222);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.btn__bg-inscrevase{
+    background-color:rgb(233, 79, 32);
+    border: 2px solid #fff;
+}
+
+.btn__navbar-inscrevase {
+    background-color:rgb(233, 79, 32);
+    color: rgb(241, 231, 222);
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: 2px solid #fff;
+}
+
+.btn__navbar-inscrevase a{
+    color:rgb(212, 195, 181);
+}
