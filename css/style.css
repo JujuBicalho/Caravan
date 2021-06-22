@@ -34,3 +34,84 @@ body {
 .btn__navbar-inscrevase a{
     color:rgb(212, 195, 181);
 }
+.btn__navbar-inscrevase a:hover{
+    color:rgb(241, 116, 116);
+}
+
+.fundo_servicos {
+    background-color: rgb(221, 134, 63);
+}
+
+.btn__servicos {
+    background-color: rgb(196, 31, 86);
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn__servicos:hover{
+    background-color: brown;
+    font-weight: bolder;
+}
+
+#quote_fundo {
+    background-image: url("../img/bg-quote.jpg");
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    #quote_fundo .display-4{
+        font-size: 2rem;
+        margin-top: 25px;
+    }
+
+    body {
+        padding-top: 0;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+}
+
+.perguntas {
+    border-bottom: 2px solid rgb(233, 79, 32);
+    margin:10px;
+    padding:7px;
+}
+
+.lead {
+    color: #000;
+}
+
+.lead:hover{
+    color:rgb(196, 31, 86);
+}
+.textoperguntasFrequentes {
+    color: rgb(233, 79, 32);
+    font-weight: bold;
+
+}
+@media (max-width: 767px) {
+    .lead {
+        font-size: 0.998rem; 
+        margin-top: 20rem;
+    }
+
+    .textoperguntasFrequentes{
+        font-size: 3rem;
+        
+    }
+}
+
+.h6{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.list-unstyled a{
+    color: rgb(233, 79, 32);
+}
+
+.textosContato {
+    color:rgb(158, 152, 152);
+}
